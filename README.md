@@ -1,8 +1,8 @@
 # PostFixAlgorithm
 An assessment given to me by a prospective employer. 
 
-Basically I was tasked with writing an algorithm that was able to read post-fix evaluations from 
-a text file and properly evaluate the answers by logging them to the console. I had my choice of what 
+Basically I was tasked with writing an algorithm that is able to read post-fix evaluations from 
+a text file, properly calculate the answers, and log them to the console. I had my choice of what 
 language I wanted to write this in so I went with Node.
 
 First I added some Node logic that would allow my application to read a text file. 
@@ -13,7 +13,7 @@ and pushing them onto a new array called "stack".
 
 When the loop ran into a number it would simply push that number onto its respective "stack". 
 If it ran into an operator then it would instead push the evaluation of the last two numbers 
-pushed into "stack" (removing them in the process) with the operator in question. 
+pushed into "stack" (also removing them from "stack" in the process) with the operator in question. 
 Once the application looped through the entire line it would then log the final version 
 of the "stack" for that line and then move onto the next line to start the process over again. 
 
